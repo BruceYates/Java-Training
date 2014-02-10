@@ -1,0 +1,74 @@
+!SESSION 2014-02-04 17:38:45.353 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data D:\STG\Training\Java\HF_Source_Code -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2014-02-04 17:54:04.599
+!MESSAGE Failed to open search index.
+!SESSION 2014-02-04 18:00:07.963 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data D:\STG\Training\Java\HF_Source_Code -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jdt.core 4 969 2014-02-04 18:04:20.044
+!MESSAGE Chapter 2 [in src [in Head First Java]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2014-02-04 18:04:20.059
+!MESSAGE Chapter 2 [in src [in Head First Java]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2014-02-04 18:04:20.059
+!MESSAGE Chapter 2 [in src [in Head First Java]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2014-02-04 18:04:20.059
+!MESSAGE Chapter 3 [in src [in Head First Java]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2014-02-04 18:04:20.059
+!MESSAGE Chapter 4 [in src [in Head First Java]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2014-02-04 18:04:20.059
+!MESSAGE Chapter 6 [in src [in Head First Java]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2014-02-04 18:04:20.059
+!MESSAGE Chapter 6 [in src [in Head First Java]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2014-02-04 18:04:20.059
+!MESSAGE Chapter 7 [in src [in Head First Java]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2014-02-04 18:04:20.075
+!MESSAGE Chapter 8 [in src [in Head First Java]] does not exist
+!SESSION 2014-02-04 18:24:12.234 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data D:\STG\Training\Java\HF_Source_Code -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclise.recommenders.rcp.utils 4 0 2014-02-04 21:22:23.624
+!MESSAGE Failed to resolve selection in '=Head First Java/src<chapter_6{DotComBust.java' at offset 3463
+!STACK 1
+Java Model Exception: Java Model Status [Index out of bounds]
+	at org.eclipse.jdt.internal.core.Openable.codeSelect(Openable.java:157)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:377)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:371)
+	at org.eclipse.recommenders.internal.rcp.providers.JavaSelectionUtils.resolveJavaElementFromTypeRootInEditor(JavaSelectionUtils.java:147)
+	at org.eclipse.recommenders.internal.rcp.providers.JavaSelectionUtils.resolveJavaElementFromEditor(JavaSelectionUtils.java:129)
+	at org.eclipse.recommenders.internal.rcp.providers.JavaSelectionUtils.resolveJavaElementFromEditor(JavaSelectionUtils.java:112)
+	at org.eclipse.recommenders.internal.rcp.providers.JavaSelectionProvider.handleSelectionInEditor(JavaSelectionProvider.java:108)
+	at org.eclipse.recommenders.internal.rcp.providers.JavaSelectionProvider.access$1(JavaSelectionProvider.java:105)
+	at org.eclipse.recommenders.internal.rcp.providers.JavaSelectionProvider$1.run(JavaSelectionProvider.java:82)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.jdt.core 4 980 2014-02-04 21:22:23.624
+!MESSAGE Index out of bounds

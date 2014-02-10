@@ -1,0 +1,12 @@
+{
+  "C:\\Program Files (x86)\\Java\\jre7\\lib\\rt.jar": {
+    "coordinate": "jre:jre:zip:call:1.0.0",
+    "location": "C:\\Program Files (x86)\\Java\\jre7\\lib\\rt.jar",
+    "status": "RESOLVED"
+  },
+  "D:\\STG\\Training\\Java\\HF_Source_Code\\Head First Java\\src": {
+    "location": "D:\\STG\\Training\\Java\\HF_Source_Code\\Head First Java\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\STG\\Training\\Java\\HF_Source_Code\\Head First Java\\src\u0027. Skipped."
+  }
+}

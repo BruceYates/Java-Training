@@ -1,0 +1,9 @@
+package chapter_7;
+
+public class Test {
+	public class Sailboat extends Boat {
+		public void move() {
+			System.out.print("hoist sail");
+		}
+	}
+}

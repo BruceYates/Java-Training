@@ -1,0 +1,32 @@
+package chapter_11;
+
+import java.util.*;
+
+public class TestExceptions {
+
+	static void doRisky(String test) throws ScaryException {
+		try {
+			System.out.println("start risky");
+			System.out.println("start try");
+		} catch (ScaryException se) {
+			System.out.println("scary exception");
+		} finally {
+			System.out.println("finally");
+		}
+		System.out.println("end of main");
+		
+		
+
+		if ("yes".equals(test)) {
+			throw new ScaryException();
+		}
+		System.out.println("end risky");
+		return;
+	}
+	
+	public static void main(String[] args) throws Exception {
+		TestExceptions te = new TestExceptions();
+		String test = "no";
+		te.doRisky(test);
+	}
+}

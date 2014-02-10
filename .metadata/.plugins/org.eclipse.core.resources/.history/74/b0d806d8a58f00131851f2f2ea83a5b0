@@ -1,0 +1,24 @@
+
+import java.util.GregorianCalendar;
+import java.util.Calendar;
+
+public class Calendars {
+
+	public static void main(String[] args) {
+		Calendar c = Calendar.getInstance();
+		c.set(2004,0,7,15,40);
+		System.out.println("base date " + c.getTime());
+		long day1 = c.getTimeInMillis();
+		System.out.println("base milliseconds " + day1);
+		day1 += 1000 * 60 * 60;
+		c.setTimeInMillis(day1);
+		System.out.println("add milliseconds " + c.getTime());
+		System.out.println("new hour " + c.get(c.HOUR_OF_DAY));
+		c.add(c.DATE, 35);
+		System.out.println("add 35 days " + c.getTime());
+		c.roll(c.DATE, 35);
+		System.out.println("roll 35 days " + c.getTime());
+		c.set(c.DATE, 1);
+		System.out.println("set to 1 " + c.getTime());
+	}
+}

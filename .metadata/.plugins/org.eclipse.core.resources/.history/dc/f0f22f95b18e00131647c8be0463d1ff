@@ -1,0 +1,25 @@
+package chapter_9;
+
+public class SimUnit {
+	String botType;
+	//Constructor
+	SimUnit(String type) {
+		botType = type;
+	}
+	
+	int powerUse() {
+		if ("Retention".equals(botType)) {
+			System.out.println("Retention");
+			return 1;
+		} else if ("V2Radiator".equals(botType)) {
+			System.out.println("V2Raditor");
+			return 1; 
+		} else if ("V3Radiator".equals(botType)) {
+			System.out.println("V3Raditor");
+			return 2;
+		} else {
+			System.out.println("Invalid Bot Type");
+			return 0;
+		}
+	}
+}

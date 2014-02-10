@@ -1,0 +1,9 @@
+package chapter_9;
+
+public class Hippo {
+
+	public Hippo() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

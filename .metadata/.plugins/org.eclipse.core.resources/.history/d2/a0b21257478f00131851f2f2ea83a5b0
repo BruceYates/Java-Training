@@ -1,0 +1,5 @@
+package chapter_09;
+
+public interface TestLifeSupportTracker {
+	public int botCounter();
+}

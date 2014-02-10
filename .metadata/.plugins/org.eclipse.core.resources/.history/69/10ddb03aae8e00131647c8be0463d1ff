@@ -1,0 +1,17 @@
+package chapter_9;
+
+public class SimUnit {
+	String botType;
+	//Constructor
+	SimUnit(String type) {
+		botType = type;
+	}
+	
+	int powerUse() {
+		if ("Retention".equals(botType)) {
+			return 2;
+		} else {
+			return 4;
+		}
+	}
+}

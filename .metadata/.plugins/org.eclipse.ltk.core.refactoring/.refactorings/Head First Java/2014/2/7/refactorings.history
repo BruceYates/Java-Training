@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;chapter_12.SimpleGui.java&apos; to &apos;SimpleGUI1.java&apos;&#x0D;&#x0A;- Original project: &apos;Head First Java&apos;&#x0D;&#x0A;- Original element: &apos;chapter_12.SimpleGui.java&apos;&#x0D;&#x0A;- Renamed element: &apos;chapter_12.SimpleGUI1.java&apos;" description="Rename compilation unit &apos;SimpleGui.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;chapter_12{SimpleGui.java" name="SimpleGUI1.java" references="false" stamp="1391914466740" version="1.0"/>
+</session>

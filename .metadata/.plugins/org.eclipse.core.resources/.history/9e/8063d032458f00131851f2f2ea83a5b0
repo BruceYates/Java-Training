@@ -1,0 +1,15 @@
+package chapter_9;
+
+import java.util.*;
+
+public class RetentionBot implements TestLifeSupportTracker {
+	//Constructor
+	public RetentionBot(ArrayList rlist) {
+		rlist.add(new SimUnit("Retention"));
+	}
+	
+	int retentionBotCount;
+	public int botCounter() {
+		return retentionBotCount++;
+	}
+}
